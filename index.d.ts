@@ -74,6 +74,7 @@ declare module 'mongoose' {
 
   interface PaginateResult<T> {
     docs: T[];
+    data: T[];
     totalDocs: number;
     limit: number;
     hasPrevPage: boolean;
